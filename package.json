@@ -1,0 +1,24 @@
+{
+  "name": "helplink-backend",
+  "version": "1.0.0",
+  "description": "This is helplink app backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.9",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "mongoose": "^5.11.14",
+    "morgan": "^1.10.0",
+    "swagger": "^0.7.5",
+    "swagger-jsdoc": "^6.0.2",
+    "swagger-ui-express": "^4.1.6"
+  }
+}
